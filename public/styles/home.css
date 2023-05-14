@@ -165,7 +165,7 @@
 }
 .home-health-corner {
   flex: 0 0 auto;
-  width: auto;
+  width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
   margin-top: var(--dl-space-space-twounits);
@@ -184,16 +184,13 @@
   background-color: #d65858;
 }
 .home-medicine {
-  width: auto;
+  width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: auto;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   margin-top: var(--dl-space-space-twounits);
   align-items: center;
-  margin-left: var(--dl-space-space-twounits);
-  margin-right: var(--dl-space-space-twounits);
-  margin-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
 .home-container02 {
@@ -269,14 +266,14 @@
   flex-shrink: 0;
 }
 .home-disease {
-  width: auto;
-  margin: var(--dl-space-space-twounits);
+  width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: auto;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   align-items: center;
   justify-content: space-between;
+  margin-top: var(--dl-space-space-twounits);
 }
 .home-container04 {
   width: 100%;
@@ -349,9 +346,8 @@
   object-fit: cover;
   flex-shrink: 0;
 }
-.home-salad {
-  width: auto;
-  margin: var(--dl-space-space-twounits);
+.home-precaution {
+  width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: auto;
@@ -359,6 +355,7 @@
   transition: 0.3s;
   align-items: center;
   justify-content: space-between;
+  margin-top: var(--dl-space-space-twounits);
 }
 
 .home-container06 {
@@ -433,7 +430,7 @@
 }
 .home-fitness-corner {
   flex: 0 0 auto;
-  width: auto;
+  width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
   margin-top: var(--dl-space-space-twounits);
@@ -452,8 +449,8 @@
   background-color: rgb(92, 138, 51);
 }
 .home-nutrients {
-  width: auto;
-  margin: var(--dl-space-space-twounits);
+  width: 100%;
+  margin-top: var(--dl-space-space-twounits);
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: auto;
@@ -532,8 +529,8 @@
   flex-shrink: 0;
 }
 .home-exercise {
-  width: auto;
-  margin: var(--dl-space-space-twounits);
+  width: 100%;
+  margin-top: var(--dl-space-space-twounits);
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: auto;
@@ -612,8 +609,8 @@
   flex-shrink: 0;
 }
 .home-yoga {
-  width: auto;
-  margin: var(--dl-space-space-twounits);
+  width: 100%;
+  margin-top: var(--dl-space-space-twounits);
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: auto;
@@ -822,7 +819,7 @@
     width: var(--dl-size-size-xxlarge);
     height: var(--dl-size-size-xxlarge);
   }
-  .home-salad {
+  .home-precaution {
     flex-direction: column;
   }
   .home-container06 {
@@ -933,7 +930,7 @@
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-salad {
+  .home-precaution {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -1079,7 +1076,7 @@
     width: var(--dl-size-size-xlarge);
     height: var(--dl-size-size-xlarge);
   }
-  .home-salad {
+  .home-precaution {
     width: 100%;
     align-self: center;
     padding-top: var(--dl-space-space-twounits);
